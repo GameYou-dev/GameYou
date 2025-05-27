@@ -181,14 +181,15 @@ li a {
   z-index: 99;
 }
 
-.search h1:active{
+.search h1.active{
   color: brown;
 }
-.search h1:active ~ .search_menu{
+.search_menu.active {
   position: absolute;
   left: 0px;
   display: flex;
   transform: translateZ(10);
+
 }
 
 .search h1:active{
